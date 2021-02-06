@@ -1,0 +1,11 @@
+[run]
+omit =
+    post_manager\asgi.py
+    */apps.py
+    */admin.py
+    */*/models.py
+    */*/tests.py
+    post_manager/comment/views.py
+    post_manager\post\views.py
+    post_manager\wsgi.py
+    manage.py

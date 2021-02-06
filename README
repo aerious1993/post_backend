@@ -1,0 +1,10 @@
+This is application from https://github.com/mindworksint/interview-graphql-api?fbclid=IwAR00IcQB4BA6iN3pQbMjqQiWwwmw8kwEZ6pJvXqN0aP36GmXdsCnn2SRogo
+
+To start the application
+1. pip install -r requirements.txt
+2. python manage.py runserver
+
+
+To Run tests and view coverage report
+1. coverage run --source='.' manage.py test tests
+2. coverage report
